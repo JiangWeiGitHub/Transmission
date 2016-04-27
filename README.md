@@ -12,6 +12,7 @@ Using Restful APIs to control transmission downloading files.<p>
 # Related Reference<p>
 [Official Website](https://www.transmissionbt.com/)<p>
 [Docker Hub Image](https://hub.docker.com/r/dperson/transmission/)<p>
+[Docker API](https://docs.docker.com/engine/reference/api/docker_remote_api_v1.23)<p>
 
 # Procedure<p>
 + **Deploy Docker Daemon**<P>
@@ -23,6 +24,7 @@ docker daemon -H tcp://127.0.0.1:2375
   - Use Postman to pull transmission image from docker hub<p>
   `http://127.0.0.1:2375/images/create?fromImage=dperson/transmission`<p>
 
++ **Use Transimission with docker api**<P>
   - Create a container<p>
   `http://127.0.0.1:2375/containers/create`<p>
   `Postman -> Body -> raw`<p>
@@ -46,4 +48,4 @@ docker daemon -H tcp://127.0.0.1:2375
   - Use Transmission with browser<p>
   `http://192.168.5.179:9091/`<p>
 
-  - Done!
++ **Done**
