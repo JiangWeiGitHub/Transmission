@@ -16,10 +16,10 @@ Using Restful APIs to control transmission downloading files.<p>
 
 # Procedure<p>
 + **Deploy Docker Daemon**<P>
-```
-service docker stop
-docker daemon -H tcp://127.0.0.1:2375
-```
+  ```
+  service docker stop
+  docker daemon -H tcp://127.0.0.1:2375
+  ```
 + **Deploy Docker Image**<P>
   - Use Postman to pull transmission image from docker hub<p>
   `http://127.0.0.1:2375/images/create?fromImage=dperson/transmission`<p>
@@ -34,8 +34,8 @@ docker daemon -H tcp://127.0.0.1:2375
     PS: *7c5fe3eafa3f* is the ID of transmission's docker image. It will return a new ID for container's ID.<p>
     ```
     {
-    "Id": "05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150",
-    "Warnings": null
+      "Id": "05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150",
+      "Warnings": null
     }
     ```
   
