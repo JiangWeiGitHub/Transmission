@@ -31,7 +31,7 @@ Using Restful APIs to control transmission downloading files.<p>
     ```
     {"Image":"7c5fe3eafa3f","ExposedPorts":{"9091/tcp":{}},"HostConfig":{"Binds":["/your/path/Downloads/:/var/lib/transmission-daemon/downloads"]}}
     ```
-    PS: *7c5fe3eafa3f* is the ID of transmission's docker image. It will return a new ID for container's ID.<p>
+    PS: **7c5fe3eafa3f** is the ID of transmission's docker image. It will return a new ID for container's ID.<p>
     ```
     {
       "Id": "05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150",
