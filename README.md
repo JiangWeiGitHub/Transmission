@@ -27,7 +27,7 @@ Using Restful APIs to control transmission downloading files.<p>
 
 + **Use Transimission with docker api**<P>
   - Create a container<p>
-  `http://127.0.0.1:2375/containers/create`<p>
+  `POST http://127.0.0.1:2375/containers/create`<p>
   `Postman -> Body -> raw`<p>
     ```
     {"Image":"7c5fe3eafa3f","ExposedPorts":{"9091/tcp":{}},"HostConfig":{"Binds":["/your/path/Downloads/:/var/lib/transmission-daemon/downloads"]}}
@@ -41,7 +41,7 @@ Using Restful APIs to control transmission downloading files.<p>
     ```
   
   - Start a container<p>
-  `http://127.0.0.1:2375/containers/05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150/start`<p>
+  `POST http://127.0.0.1:2375/containers/05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150/start`<p>
   `Postman -> Body -> raw`<p>
     ```
     {"PortBindings":{"9091/tcp":[{"HostIp":"127.0.0.1","HostPort":"9091"}]}}
