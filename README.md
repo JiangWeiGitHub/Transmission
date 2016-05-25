@@ -23,7 +23,7 @@ Using Restful APIs to control transmission downloading files.<p>
 
 + **Deploy Docker Image**<P>
   - Use Postman to pull transmission image from docker hub<p>
-  `http://127.0.0.1:2375/images/create?fromImage=dperson/transmission`<p>
+  `POST http://127.0.0.1:2375/images/create?fromImage=dperson/transmission`<p>
 
 + **Use Transimission with docker api**<P>
   - Create a container<p>
