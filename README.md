@@ -64,8 +64,8 @@ Using Restful APIs to control transmission downloading files.<p>
     `curl -X POST --header "Content-Type:application/json" http://192.168.5.105:2375/containers/05fc8e5fc6f00622fd723322ec3bf0494fe6bb55aa6c602933d1e64d56e0b150/start --data @haha.txt`<p>
     
   - Use Transmission with browser<p>
-  `http://192.168.5.105:9091/`<p>
+    `http://192.168.5.105:9091/`<p>
 
-  `PS: The default username/password are admin/admin`<p>
+    `PS: The default username/password are admin/admin`<p>
 
 ### Done
