@@ -66,4 +66,6 @@ Using Restful APIs to control transmission downloading files.<p>
   - Use Transmission with browser<p>
   `http://192.168.5.105:9091/`<p>
 
+  `PS: The default username/password are admin/admin`<p>
+
 ### Done
