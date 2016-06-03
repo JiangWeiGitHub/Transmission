@@ -35,7 +35,7 @@ Using Restful APIs to control transmission downloading files.<p>
     {"Image":"7c5fe3eafa3f","ExposedPorts":{"9091/tcp":{}},"HostConfig":{"Binds":["/your/path/Downloads/:/var/lib/transmission-daemon/downloads"]}}
     ```
     
-    PS:**file which been downloaded to "/your/path/Downloads/" path is only when the downloading procedure is done, and if the download was not finished, it would be placed under "/var/lib/docker/volumes/" path**<P>
+    PS: file which has been downloaded is saved to "/your/path/Downloads/" path only when the downloading procedure is done, and if the download was not finished, it would be placed under **"/var/lib/docker/volumes/"** path temporarily<P>
     
     PS: **7c5fe3eafa3f** is the ID of transmission's docker image. It will return a new ID for container's ID.<p>
     ```
